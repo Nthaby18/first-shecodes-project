@@ -24,24 +24,31 @@
             id="search-form-input"
             class="search-form-input"
           />
-          <input type="submit" value="Search" class="search-form-button" />
+  <input type="submit" value="Search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div class="weather-app-data">
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
-              <span id="time"></span>,
-              <span id="description"></span>
+              <span id="time">Tuesday 14:25</span>
+              <span id="description">broken clouds</span>
               <br />
-              Humidity: <strong id="humidity"></strong>, Wind:
-              <strong id="wind-speed"></strong>
+
+              Humidity:
+              <strong id="humidity">68%</strong>
+              , Wind:
+              <strong id="wind-speed">6.69km/h</strong>
             </p>
-          </div>
-          <div class="weather-app-temperature-container">
-            <div id="icon"></div>
-            <div class="weather-app-temperature" id="temperature"></div>
+          </div>temperature-container">
+            <div id="icon">
+              <img
+                src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+                class="weather-app-icon"
+              />
+            </div>
+            <div class="weather-app-icon">🌤️</div>
+            <div class="weather-app-temperature" id="temperature">17</div>
             <div class="weatehr-app-unit">°C</div>
           </div>
         </div>
@@ -49,7 +56,7 @@
 
       <footer>
         This project was coded by
-        <a href="" target="_blank"> Nthabiseng Molefe</a>, is
+        <a href="" target="_blank">Nthabiseng Molefe</a>, is
         <a href="" target="_blank">open-sourced on GitHub</a>
         and
         <a href="" target="_blank">hosted on Netlify</a>
