@@ -32,15 +32,17 @@
           <div>
             <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details"></p>
-              <span id="current-date"></span>, moderate rain <br />
-              Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+              <span id="time"></span>,
+              <span id="description"> moderate rain</span> <br />
+              Humidity: <strong><span id="humidity">87</span>%</strong>, Wind: <strong><span
+                 id ="wind-speed">7.2</span>km/h</strong>
             </p>
           </div>
           <div class="current-temperature">
-            <span class="current-temperature-icon">☀️</span
+            <span class="current-temperature-icon" id ="icon">☀️</span
             ><span class="current-temperature-value" id="current-temperature"
               ></span>
-              <div class="weather-app-temperature" id="temperature">15</div>
+              <span class="weather-app-temperature" id="temperature">15</span>
             <span class="current-temperature-unit">°C</span>
           </div>
       </main>
